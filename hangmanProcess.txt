@@ -1,0 +1,73 @@
+OBJECTIVE:
+
+This program will allow the user to play hangman against the computer using a list of words from text file.
+-Function that randomly selects a word from the text dictionary
+-Function that takes input from the user which will be the letter guessed
+-Function that will take the letters guessed correctly and turn them into a string
+-Need to create various variables to store the users inputted data
+    -Variable for the word that the computer picks
+    -Create a set of data that holds the letters guessed wrong and the letters guessed correctly by the user. 
+-We need to display an intro to the program
+-Build a repetitive system, so that the user can keep guessing the letter
+-If the user guesses wrong a new part fo the body is drawn, until they lose. (Guesses left goes down/ wrong guesses goes up)
+-Add statements to the end and begginning that welcome and thank the user for playing
+
+
+PSUEDOCODE:
+
+def pick_random_word() :
+    """
+    This function picks a random word from the words dictionary
+    """
+    
+    #open the words dictionary
+    
+    #generate a random index
+    
+    #store the word at that index
+    
+def ask_user_for_next_letter():
+    #this function gets a letter guess from the user
+    
+    #get input from the user 
+    
+    #return and fromat the input
+    
+def generate_word_string(word, letters_guessed):
+
+    """
+    This function generates the word display that shows which letters the user haas guessed correctly
+    """
+    #output stores either the correct letters guessed or an _ in the order of the word
+    output = []
+    for letter in word:
+        if letter is guessed, add it to output
+        else, add a _
+        
+        return the output as a string
+        
+#check that the module we are using is currently the main module
+if(__name__ == '__main__'):
+
+    WORD = pick_random_word()
+    
+    letters_to_guess = set(WORD)
+    correct_letters_gussed = set()
+    incorrect_letters_guessed = set()
+    num_guesses = 0
+    
+    #welcome
+    
+    #loop that repeats the guessing sequence until the user guessed all the letters OR they run out of guesses
+        
+        ask_user_for_next_letter()
+        
+        #check if user already guessed that letter
+        
+        #check if guss was correct
+        
+        #print how much of the word is guessed / how many letters are left
+        
+    #tell the user has won or lost
+        
+        
